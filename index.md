@@ -322,7 +322,7 @@ puts "height = #{g.logical_screen.image_height}"</code></pre>
               distributions. Just add it and install a package:
             </p>
             <pre># Import GPG key, if you never used any BinTray repos before
-sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv 379CE192D401AB61
+sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv 0x379CE192D401AB61
 
 # Add stable repository
 echo "deb https://dl.bintray.com/kaitai-io/debian jessie main" | sudo tee /etc/apt/sources.list.d/kaitai.list
